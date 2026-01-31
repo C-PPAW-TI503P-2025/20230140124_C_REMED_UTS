@@ -97,3 +97,25 @@ Backend sederhana untuk sistem manajemen perpustakaan dengan fitur peminjaman be
 - Penyebab: Database belum dibuat otomatis.
 - Solusi: Buat database kosong bernama `library_db` di phpMyAdmin (localhost/phpmyadmin).
 
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 115136" src="https://github.com/user-attachments/assets/ab0f8740-7e00-4a68-b71f-806ef60f73bf" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 115149" src="https://github.com/user-attachments/assets/645a0062-8eb9-452e-9189-f454ef34aa54" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122149" src="https://github.com/user-attachments/assets/34c9756e-ed15-455c-ba17-9a631b0deeaa" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122215" src="https://github.com/user-attachments/assets/100f2113-ac2e-4c6e-9b3d-a08680853890" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122244" src="https://github.com/user-attachments/assets/40ee1339-1060-4d4c-b756-ac51657d2b41" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122329" src="https://github.com/user-attachments/assets/c5f03365-bbfd-4b4a-a4e0-104d22bcc750" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122353" src="https://github.com/user-attachments/assets/60412879-0e46-440d-9021-bf86f0d9c6d6" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122404" src="https://github.com/user-attachments/assets/393e0156-f8de-4aa4-aa09-e0f58821a2ef" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122522" src="https://github.com/user-attachments/assets/7ec26661-cba6-41ec-8612-ee830f0631c3" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122538" src="https://github.com/user-attachments/assets/329399d0-1afd-4ba1-b9d3-e72a416246ad" />
+
+<img width="1920" height="1080" alt="Cuplikan layar 2026-01-31 122557" src="https://github.com/user-attachments/assets/44987cc3-d903-42dc-9ccf-a7873eebe076" />
+
