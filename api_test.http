@@ -1,0 +1,61 @@
+### Global Variables
+@baseUrl = http://localhost:3000/api
+
+### 1. GET ALL BOOKS (Public)
+GET {{baseUrl}}/books
+
+### 1a. SEARCH BOOKS
+GET {{baseUrl}}/books?search=Node
+
+### 2. ADD BOOK (Admin)
+POST {{baseUrl}}/books
+Content-Type: application/json
+x-user-role: admin
+
+{
+    "title": "Belajar Node.js",
+    "author": "Programmer Zaman Now",
+    "stock": 10
+}
+
+### 3. GET BOOK DETAIL
+GET {{baseUrl}}/books/1
+
+### 4. BORROW BOOK (User)
+POST {{baseUrl}}/borrow
+Content-Type: application/json
+x-user-role: user
+x-user-id: 101
+
+{
+    "bookId": 1,
+    "latitude": -6.1234,
+    "longitude": 106.5555
+}
+
+### 5. CHECK UPDATED STOCK (Public)
+GET {{baseUrl}}/books/1
+
+### 6. UPDATE BOOK (Admin)
+PUT {{baseUrl}}/books/1
+Content-Type: application/json
+x-user-role: admin
+
+{
+    "stock": 50
+}
+
+### 7. DELETE BOOK (Admin)
+DELETE {{baseUrl}}/books/1
+x-user-role: admin
+
+### 8. UNAUTHORIZED USER TRYING ADMIN (Should Fail)
+POST {{baseUrl}}/books
+Content-Type: application/json
+x-user-role: user
+
+{
+    "title": "Hacker Book",
+    "author": "Hacker",
+    "stock": 100
+}

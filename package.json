@@ -1,0 +1,38 @@
+{
+  "name": "20230140124_c_remed_uts",
+  "version": "1.0.0",
+  "description": "\"# 20230140124_C_REMED_UTS\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-PPAW-TI503P-2025/20230140124_C_REMED_UTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-PPAW-TI503P-2025/20230140124_C_REMED_UTS/issues"
+  },
+  "homepage": "https://github.com/C-PPAW-TI503P-2025/20230140124_C_REMED_UTS#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.16.2",
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.2.2"
+  }
+}
